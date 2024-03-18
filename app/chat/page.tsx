@@ -22,7 +22,7 @@ export default async function RoomListPage() {
 
   return (
     <div className="w-full flex flex-col gap-6">
-      <h1 className="text-4xl font-medium">Chat Rooms</h1>
+      <h1 className="text-4xl font-medium">Emotion Rooms</h1>
       <RoomList initialRooms={rooms} />
       <NewRoom slug={generateSlug(3, randomWords)} />
     </div>
