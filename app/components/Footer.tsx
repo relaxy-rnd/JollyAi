@@ -7,13 +7,8 @@ export default function Footer() {
         <div className="flex flex-col gap-1 justify-start">
           <h2>Built by Relaxy Limited</h2>
         </div>
-        <div className="flex flex-col justify-end">
-          <Link
-            href="https://github.com/partykit/partykit-nextjs-chat-template"
-            className="bg-stone-200 hover:bg-stone-300 p-2 rounded text-stone-600 whitespace-nowrap"
-          >
-            View on GitHub
-          </Link>
+        <div className="flex flex-col justify-end text-right">
+          Share Your Emotions with Jolly AI
         </div>
       </div>
     </footer>

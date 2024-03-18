@@ -15,11 +15,11 @@ When presented with a chat history, you'll respond with a cool fact that's relat
 Keep your responses short.
 `;
 
-export const AI_USERNAME = "AI";
+export const AI_USERNAME = "Jolly AI";
 export const AI_USER: User = {
   username: AI_USERNAME,
   image:
-    "https://pbs.twimg.com/profile_images/1634058036934500352/b4F1eVpJ_400x400.jpg",
+    "https://firebasestorage.googleapis.com/v0/b/there-for-you-314a5.appspot.com/o/assets%2FChotu.jpeg?alt=media&token=f2e19688-11f8-4c7b-90ff-04f60f5019c8",
   expires: new Date(2099, 0, 1).toISOString(),
 };
 
